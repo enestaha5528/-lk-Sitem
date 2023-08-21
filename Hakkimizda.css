@@ -1,0 +1,38 @@
+body{
+    background-image: url("image/pexels-eberhard-grossgasteiger-1287145.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+.navbar{
+    height: 8vh;
+    width: 100%;
+    background-color: #222222;
+    color: whitesmoke;
+    display: flex;
+    align-items: center ;
+    flex-direction: row;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.8ms;
+
+}
+h2{
+    cursor: pointer;
+    transition: 0.8ms;
+}
+a:hover{
+    color: blue;
+}
+h2:hover{
+color: blue;
+}
+div{
+    font-family: sans-serif;
+    font-size: 30px;
+    padding: 100px;
+    text-align: center;
+    color: antiquewhite;
+}
